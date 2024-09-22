@@ -17,12 +17,12 @@ export default function DashboardLayout({
           className="flex justify-center items-center lg:justify-start gap-2"
         >
           <Image src="/logo.png" alt="logo" width={32} height={32} />
-          <span className="hidden lg:block">SchoolFast</span>
+          <span className="hidden lg:block font-bold">LAMASCHOOL</span>
         </Link>
         <Menu />
       </div>
       {/* right */}
-      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#f7f8fa] overflow-scroll">
+      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#f7f8fa] overflow-y-scroll [&::-webkit-scrollbar]:hidden">
         <Navbar />
         {children}
       </div>
