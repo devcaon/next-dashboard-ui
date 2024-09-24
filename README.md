@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-## tempo: 1:05:35
+## tempo: 1:33:00
 
 First, run the development server:
 
